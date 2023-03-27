@@ -1,8 +1,56 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #19C6E6;
+  background-color: #fff;
   font-family: "Outfit", sans-serif;
+}
+
+header {
+  display: flex;
+  position: relative;
+  background-color: white;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: rgb(26, 192, 26);
+  font-family: "Outfit", sans-serif, sans-serif;
+  margin-left: 10px;
+  border-bottom: 4px solid rgb(26, 192, 26);
+}
+
+div p {
+  font-size: 1.2rem;
+  margin-left: 5px;
+  color: white;
+  background-color: rgba(26, 192, 26, 0.836);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logomarca {
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  top: 10px;
+  right: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+.logomarca p {
+  background-color: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.219);
+}
+
+img {
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
