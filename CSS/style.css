@@ -9,12 +9,13 @@ header {
   display: flex;
   position: relative;
   background-color: white;
+  margin-bottom: 80px;
 }
 
 header h1 {
   font-size: 3rem;
   color: rgb(26, 192, 26);
-  font-family: "Outfit", sans-serif, sans-serif;
+  font-family: "Outfit", sans-serif;
   margin-left: 10px;
   border-bottom: 4px solid rgb(26, 192, 26);
 }
@@ -51,6 +52,14 @@ img {
   margin-top: 5px;
   width: 50px;
   height: 50px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(26, 192, 26);
+  font-family: "Outfit", sans-serif;
+  margin-left: 10px;
+  border-bottom: 4px solid rgb(26, 192, 26);
 }
 
 /*# sourceMappingURL=style.css.map */

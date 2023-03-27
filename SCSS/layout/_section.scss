@@ -1,0 +1,4 @@
+@use "../mixins";
+h1{
+    @include mixins.title-style(2rem);
+}
