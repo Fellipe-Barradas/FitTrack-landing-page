@@ -1,48 +1,36 @@
-@use "../variables";
-@use "../mixins";
-header{
+@use '../variables';
+#header{
+    color: variables.$text-color;
+    background-color: variables.$secondary-color;
     display: flex;
-    position: relative;
-    background-color: rgb(247, 238, 238);
-    margin-bottom: 80px
+    flex-direction: column;
 }
-header h1{
-    @include mixins.title-style(3rem, 4px);
+#header .title{
+    font-family: variables.$font-primary;
+    width: 100%;
+    margin-left: 15px;
+    font-size: 2.5rem;
 }
-header div p{
-    font-size: 1.2rem;
-    margin-left: 5px;
-    color: white;
-    background-color:rgba(26, 192, 26, 0.836);
+.subtitle{
     padding: 10px;
+}
+header ul{ 
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 10px;
+    justify-content: space-between;
+}
+header ul li{
+    cursor: pointer;
+    padding: 5px;
+    color: variables.$secondary-color;
+    background-color: variables.$text-color;
     border-radius: 5px;
-}
-.logomarca{
-    position: absolute;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0);
-    top: 10px;
-    right: 10px;
-    width: 130px;
-    height: 130px;
-}
-img{
-    margin-top: 5px;
-    width: 60px;
-    height: 60px;
-}
-@media only screen and (max-width:400px){
-    header h1{
-        font-size:2rem;
-    }
-    header div p{
-        font-size: 0.8rem;
-        margin: 0px;
-    }
-    .logomarca{
-        top: -5px;
-        right: 20px;
-        width: 45px;
-        height: 45px;
+    transition: 300ms;
+    margin-top:15px;
+    &:hover{
+        background-color: lighten(variables.$secondary-color, 20%);
     }
 }
