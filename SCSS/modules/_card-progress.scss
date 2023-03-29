@@ -3,7 +3,6 @@
     height: 300px;
     border-radius: 10px;
     margin-left: 20px;
-    display: border-box;
     background-color: none;
     background-color: #FFF5F5;
     border: 4px solid rgb(26, 192, 26);
@@ -13,7 +12,6 @@
     text-align: center;
     border-bottom: 3px solid rgb(26, 192, 26);
     width: 120px;
-    height: 100px;
     margin: auto;
     margin-top: 20px;
     color: rgb(26, 192, 26);
@@ -30,4 +28,10 @@
 }
 .progress-circle li{
     margin-top: 10px;
+}
+@media only screen and (max-width:700px){
+    .progress-circle h2{
+        margin-bottom: 10px;
+        height: fit-content;
+    }
 }
