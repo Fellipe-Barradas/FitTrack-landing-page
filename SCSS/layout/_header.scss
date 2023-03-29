@@ -7,7 +7,7 @@ header{
     margin-bottom: 80px
 }
 header h1{
-    @include mixins.title-style(3rem);
+    @include mixins.title-style(3rem, 4px);
 }
 div p{
     font-size: 1.2rem;
@@ -26,16 +26,8 @@ div p{
     width: 130px;
     height: 130px;
 }
-.logomarca p{
-    background-color: none;
-    font-size: 1rem;
-    font-weight: 500;
-    color: black;
-    background-color: white;
-    border: 2px solid rgba(0, 0, 0, 0.219);
-}
 img{
     margin-top: 5px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }

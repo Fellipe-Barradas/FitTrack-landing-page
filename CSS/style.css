@@ -39,19 +39,10 @@ div p {
   height: 130px;
 }
 
-.logomarca p {
-  background-color: none;
-  font-size: 1rem;
-  font-weight: 500;
-  color: black;
-  background-color: white;
-  border: 2px solid rgba(0, 0, 0, 0.219);
-}
-
 img {
   margin-top: 5px;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 h1 {
@@ -59,7 +50,52 @@ h1 {
   color: rgb(26, 192, 26);
   font-family: "Outfit", sans-serif;
   margin-left: 10px;
-  border-bottom: 4px solid rgb(26, 192, 26);
+  border-bottom: 0px solid rgb(26, 192, 26);
+}
+
+section {
+  background-color: rgb(247, 238, 238);
+}
+
+section p {
+  width: 600px;
+  margin-left: 10px;
+  font-size: 1rem;
+  background-color: rgba(238, 234, 234, 0.466);
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.151);
+  color: black;
+}
+
+.functions {
+  display: flex;
+}
+
+.progress-circle {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  display: border-box;
+  border-radius: 50%;
+  background-color: none;
+  border: 4px solid rgb(26, 192, 26);
+}
+
+.progress-circle h2 {
+  text-align: center;
+  color: rgb(26, 192, 26);
+  font-size: 3.5rem;
+}
+
+.progress-circle p {
+  box-shadow: none;
+  width: 250px;
+  font-size: 1.7rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

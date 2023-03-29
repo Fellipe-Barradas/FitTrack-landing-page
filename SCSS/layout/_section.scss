@@ -1,4 +1,21 @@
 @use "../mixins";
 h1{
-    @include mixins.title-style(2rem);
+    @include mixins.title-style(2rem, 0px);
+}
+section{
+    background-color: rgb(247, 238, 238);
+}
+section p{
+    width: 600px;
+    margin-left: 10px;
+    font-size: 1rem;
+    background-color: rgba(238, 234, 234, 0.466);
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.151);
+    color: black;
+}
+.functions{
+    display: flex;
+    
 }

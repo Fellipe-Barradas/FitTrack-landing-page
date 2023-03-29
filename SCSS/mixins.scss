@@ -1,7 +1,7 @@
-@mixin title-style($size){
+@mixin title-style($size, $border){
     font-size: $size;
     color: rgb(26, 192, 26);
     font-family: 'Outfit', sans-serif;
     margin-left: 10px;
-    border-bottom: 4px solid rgb(26, 192, 26);
+    border-bottom: $border solid rgb(26, 192, 26);
 }
