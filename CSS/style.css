@@ -1,8 +1,47 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #19C6E6;
   font-family: "Outfit", sans-serif;
+}
+
+#header {
+  color: #f4fbfc;
+  background-color: #1b8ca0;
+  display: flex;
+  flex-direction: column;
+}
+
+#header .title {
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+  margin-left: 15px;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  padding: 10px;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+header ul li {
+  cursor: pointer;
+  padding: 5px;
+  color: #1b8ca0;
+  background-color: #f4fbfc;
+  border-radius: 5px;
+  transition: 300ms;
+  margin-top: 15px;
+}
+header ul li:hover {
+  background-color: #42c7df;
 }
 
 /*# sourceMappingURL=style.css.map */
