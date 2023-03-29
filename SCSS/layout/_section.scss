@@ -1,15 +1,18 @@
 @use "../mixins";
 h1{
-    @include mixins.title-style(2rem, 0px);
+    @include mixins.title-style(2.2rem, 2px);
+   
 }
 section{
-    background-color: rgb(247, 238, 238);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.226);
 }
 section p{
     width: 600px;
     margin-left: 10px;
     font-size: 1rem;
-    background-color: rgba(238, 234, 234, 0.466);
+    background-color: #fff5f5;
     padding: 10px;
     border-radius: 3px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.151);
