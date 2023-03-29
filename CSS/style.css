@@ -23,12 +23,21 @@ body {
 }
 
 header ul {
+  padding: 10px;
+  width: 50%;
+  justify-self: center;
+  align-self: center;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
   padding: 10px;
   justify-content: space-between;
+}
+@media only screen and (max-width: 770px) {
+  header ul {
+    width: 90%;
+  }
 }
 
 header ul li {
