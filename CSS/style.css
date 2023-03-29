@@ -1,14 +1,14 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #fff;
+  background-color: rgb(247, 238, 238);
   font-family: "Outfit", sans-serif;
 }
 
 header {
   display: flex;
   position: relative;
-  background-color: white;
+  background-color: rgb(247, 238, 238);
   margin-bottom: 80px;
 }
 
@@ -32,7 +32,7 @@ div p {
 .logomarca {
   position: absolute;
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   top: 10px;
   right: 10px;
   width: 130px;
