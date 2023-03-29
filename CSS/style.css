@@ -102,6 +102,40 @@ section p {
   height: 200px;
 }
 
+.functions aside {
+  display: flex;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .functions {
+    flex-direction: column;
+  }
+  .functions p {
+    width: 900px;
+  }
+  .grafico {
+    margin-top: 20px;
+    width: fit-content;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .functions p {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .functions aside {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .functions p {
+    width: 80%;
+    margin: auto;
+  }
+}
 .progress-circle {
   width: 250px;
   height: 300px;
