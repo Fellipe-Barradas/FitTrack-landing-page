@@ -73,29 +73,40 @@ section p {
 }
 
 .progress-circle {
-  width: 300px;
+  width: 250px;
   height: 300px;
+  border-radius: 10px;
   margin-left: 20px;
   display: border-box;
-  border-radius: 50%;
   background-color: none;
+  background-color: rgb(247, 246, 246);
   border: 4px solid rgb(26, 192, 26);
+  box-shadow: 2px 2px 4px rgba(8, 66, 8, 0.24);
 }
 
 .progress-circle h2 {
   text-align: center;
+  border-bottom: 3px solid rgb(26, 192, 26);
+  width: 120px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
   color: rgb(26, 192, 26);
   font-size: 3.5rem;
 }
 
 .progress-circle p {
   box-shadow: none;
-  width: 250px;
-  font-size: 1.7rem;
+  width: 200px;
+  font-size: 1.3rem;
   text-align: center;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0);
   color: black;
+}
+
+.progress-circle li {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
