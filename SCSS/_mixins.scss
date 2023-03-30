@@ -10,4 +10,9 @@
     margin-top: 10px;
     background-color: $bg-color;
     color: white;
+    cursor: pointer;
+    &:hover{
+        background-color: darken($bg-color, 20%);
+        border: 2px solid rgb(128, 128, 128);
+   }
 }

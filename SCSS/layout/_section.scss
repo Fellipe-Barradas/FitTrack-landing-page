@@ -43,13 +43,13 @@ section{
     }
 }
 .download-section{
+    background-color: variables.$primary-color;
+    padding-bottom: 10px;
     h1{
         color: rgb(245, 242, 236);
         font-size: 1.5rem;
         width: fit-content;
         padding: 13px;
-        margin-left: 5px;
-        background-color: variables.$primary-color;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
     }
     div{

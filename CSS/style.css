@@ -96,13 +96,15 @@ section {
   border-radius: 10px;
 }
 
+.download-section {
+  background-color: #17bedb;
+  padding-bottom: 10px;
+}
 .download-section h1 {
   color: rgb(245, 242, 236);
   font-size: 1.5rem;
   width: fit-content;
   padding: 13px;
-  margin-left: 5px;
-  background-color: #17bedb;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
 }
 .download-section div svg {
@@ -121,6 +123,11 @@ section {
   margin-top: 10px;
   background-color: red;
   color: white;
+  cursor: pointer;
+}
+.download-section .download-button-app:hover {
+  background-color: #990000;
+  border: 2px solid rgb(128, 128, 128);
 }
 .download-section .download-button-play {
   padding: 5px;
@@ -134,6 +141,11 @@ section {
   margin-top: 10px;
   background-color: blue;
   color: white;
+  cursor: pointer;
+}
+.download-section .download-button-play:hover {
+  background-color: #000099;
+  border: 2px solid rgb(128, 128, 128);
 }
 
 .progress-circle {
