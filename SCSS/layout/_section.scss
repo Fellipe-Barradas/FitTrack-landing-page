@@ -4,9 +4,9 @@ section{
 }
 .functions-section h1{
     color: rgb(245, 242, 236);
-    padding: 10px;
     font-size: 2rem;
     width: fit-content;
+    padding: 5px;
     margin-left: 5px;
     border-radius: 10px;
     background-color: variables.$primary-color;
@@ -14,4 +14,30 @@ section{
 }
 .functions-section p{
     padding: 26px;
+}
+.depoiments-section{
+    background-color:  variables.$secondary-color;
+    color: rgb(245, 242, 236);
+    padding: 20px 0px 5px 0px;
+    p{
+        font-size: 1.2rem;
+        padding: 10px;
+        
+    }
+    .depoiment-card{
+        h2{
+            color: rgb(245, 242, 236);
+            padding: 10px;
+            font-size: 2.5rem;
+            text-align: center;
+            margin: auto;
+            border-radius: 15px;
+            background-color: variables.$primary-color;
+        }
+        p{
+            background-color: variables.$primary-color;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
 }

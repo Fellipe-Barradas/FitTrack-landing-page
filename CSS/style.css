@@ -59,9 +59,9 @@ section {
 
 .functions-section h1 {
   color: rgb(245, 242, 236);
-  padding: 10px;
   font-size: 2rem;
   width: fit-content;
+  padding: 5px;
   margin-left: 5px;
   border-radius: 10px;
   background-color: #17bedb;
@@ -70,6 +70,30 @@ section {
 
 .functions-section p {
   padding: 26px;
+}
+
+.depoiments-section {
+  background-color: #1b8ca0;
+  color: rgb(245, 242, 236);
+  padding: 20px 0px 5px 0px;
+}
+.depoiments-section p {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.depoiments-section .depoiment-card h2 {
+  color: rgb(245, 242, 236);
+  padding: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #17bedb;
+}
+.depoiments-section .depoiment-card p {
+  background-color: #17bedb;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .progress-circle {
