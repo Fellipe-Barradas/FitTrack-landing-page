@@ -1,4 +1,5 @@
 @use "../variables.scss";
+@use "../mixins";
 section{
     margin-top: 60px;
 }
@@ -10,7 +11,7 @@ section{
     margin-left: 5px;
     border-radius: 10px;
     background-color: variables.$primary-color;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.329);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
 }
 .functions-section p{
     padding: 26px;
@@ -39,5 +40,29 @@ section{
             padding: 10px;
             border-radius: 10px;
         }
+    }
+}
+.download-section{
+    h1{
+        color: rgb(245, 242, 236);
+        font-size: 1.5rem;
+        width: fit-content;
+        padding: 13px;
+        margin-left: 5px;
+        background-color: variables.$primary-color;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
+    }
+    div{
+        svg{
+            margin-left: 10px;
+            color: white;        
+        }
+        
+    }
+    .download-button-app{
+        @include mixins.download-btn(red) 
+    }   
+    .download-button-play{
+        @include mixins.download-btn(blue) 
     }
 }

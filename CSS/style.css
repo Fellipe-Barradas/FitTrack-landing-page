@@ -65,7 +65,7 @@ section {
   margin-left: 5px;
   border-radius: 10px;
   background-color: #17bedb;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.329);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
 }
 
 .functions-section p {
@@ -94,6 +94,46 @@ section {
   background-color: #17bedb;
   padding: 10px;
   border-radius: 10px;
+}
+
+.download-section h1 {
+  color: rgb(245, 242, 236);
+  font-size: 1.5rem;
+  width: fit-content;
+  padding: 13px;
+  margin-left: 5px;
+  background-color: #17bedb;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
+}
+.download-section div svg {
+  margin-left: 10px;
+  color: white;
+}
+.download-section .download-button-app {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgba(128, 128, 128, 0.521);
+  width: fit-content;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+}
+.download-section .download-button-play {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgba(128, 128, 128, 0.521);
+  width: fit-content;
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
 }
 
 .progress-circle {
