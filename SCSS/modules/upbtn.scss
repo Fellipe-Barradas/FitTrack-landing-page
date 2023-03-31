@@ -3,13 +3,14 @@
     width: fit-content;
     display:none;
     background-color: rgba(255, 255, 255, 0);
-    border: none;
+    border: 0px solid black;
     right: 20px;
     position: fixed;
     animation: flutuar 1000ms infinite linear;
+    
 }
 .btn-topo svg{
-    background-color: white;
+    background-color: white;        
     border-radius: 50%;
     cursor: pointer;
     width: 40px;

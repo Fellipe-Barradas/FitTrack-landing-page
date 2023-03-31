@@ -13,6 +13,21 @@ section{
     background-color: variables.$primary-color;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
 }
+.functions-section .grafico{
+    margin: auto;
+    border: 2px solid variables.$primary-color;
+    width: fit-content;
+    height: 289px;
+}
+@media only screen and (max-width: 500px) {
+    .functions-section .grafico{
+        height: 200px;
+    }
+    .functions-section .grafico img{
+        width: 350px;
+        height: 200px;
+    }
+}
 .functions-section p{   
     padding: 26px;
     font-size: 1.3rem;
@@ -20,8 +35,9 @@ section{
 }
 .depoiments-section{
     background-color:  variables.$secondary-color;
-    color: rgb(245, 242, 236);  
-    padding: 20px -5px 5px 0px;
+    color: rgb(255, 255, 255);  
+    padding: 20px 5px 5px 0px;
+    
     p{
         font-size: 1.4rem;
         text-align: center;
@@ -29,6 +45,8 @@ section{
         
     }
     .depoiment-card{
+        width: 50%;
+        margin: auto;
         h2{
             padding: 10px;
             text-align: center;
@@ -45,16 +63,28 @@ section{
         p{
             background-color: variables.$primary-color;
             padding: 10px;
+            border-radius: 10px;
             font-family: variables.$font-secondary;
             font-size: 1rem;
-        }
+           
+            }
     }
+    @media only screen and (max-width: 500px) {
+        .depoiment-card{
+            width: 80%;
+        }
+    } 
 }
+
 .download-section{
+    margin: 20px auto 0px auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
     background-color: variables.$primary-color;
-    padding-bottom: 10px;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 15px;
     h1{
-        color: rgb(245, 242, 236);
+        color: rgb(255, 255, 255);
         font-size: 1.5rem;
         width: fit-content;
         padding: 13px;      

@@ -22,10 +22,11 @@ body {
 }
 #footer ul li {
   margin-top: 10px;
+  font-size: 0.8rem;
   cursor: pointer;
 }
 #footer ul p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 #header {
@@ -93,6 +94,22 @@ section {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
 }
 
+.functions-section .grafico {
+  margin: auto;
+  border: 2px solid #17bedb;
+  width: fit-content;
+  height: 289px;
+}
+
+@media only screen and (max-width: 500px) {
+  .functions-section .grafico {
+    height: 200px;
+  }
+  .functions-section .grafico img {
+    width: 350px;
+    height: 200px;
+  }
+}
 .functions-section p {
   padding: 26px;
   font-size: 1.3rem;
@@ -101,13 +118,17 @@ section {
 
 .depoiments-section {
   background-color: #1b8ca0;
-  color: rgb(245, 242, 236);
-  padding: 20px -5px 5px 0px;
+  color: rgb(255, 255, 255);
+  padding: 20px 5px 5px 0px;
 }
 .depoiments-section p {
   font-size: 1.4rem;
   text-align: center;
   padding: 10px;
+}
+.depoiments-section .depoiment-card {
+  width: 50%;
+  margin: auto;
 }
 .depoiments-section .depoiment-card h2 {
   padding: 10px;
@@ -125,16 +146,26 @@ section {
 .depoiments-section .depoiment-card p {
   background-color: #17bedb;
   padding: 10px;
+  border-radius: 10px;
   font-family: "Noto Sans Display", sans-serif;
   font-size: 1rem;
 }
+@media only screen and (max-width: 500px) {
+  .depoiments-section .depoiment-card {
+    width: 80%;
+  }
+}
 
 .download-section {
+  margin: 20px auto 0px auto;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
   background-color: #17bedb;
-  padding-bottom: 10px;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 15px;
 }
 .download-section h1 {
-  color: rgb(245, 242, 236);
+  color: rgb(255, 255, 255);
   font-size: 1.5rem;
   width: fit-content;
   padding: 13px;
@@ -150,7 +181,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid rgba(128, 128, 128, 0.521);
+  margin: 20px auto 0px auto;
   width: fit-content;
   margin-top: 10px;
   background-color: red;
@@ -159,7 +190,6 @@ section {
 }
 .download-section .download-button-app:hover {
   background-color: #990000;
-  border: 2px solid rgb(128, 128, 128);
 }
 .download-section .download-button-play {
   padding: 5px;
@@ -168,7 +198,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid rgba(128, 128, 128, 0.521);
+  margin: 20px auto 0px auto;
   width: fit-content;
   margin-top: 10px;
   background-color: blue;
@@ -177,7 +207,6 @@ section {
 }
 .download-section .download-button-play:hover {
   background-color: #000099;
-  border: 2px solid rgb(128, 128, 128);
 }
 
 .progress-circle {
@@ -207,7 +236,7 @@ section {
   width: fit-content;
   display: none;
   background-color: rgba(255, 255, 255, 0);
-  border: none;
+  border: 0px solid black;
   right: 20px;
   position: fixed;
   animation: flutuar 1000ms infinite linear;
