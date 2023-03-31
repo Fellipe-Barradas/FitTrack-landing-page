@@ -4,6 +4,30 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+#footer {
+  margin-top: 100px;
+  color: #f4fbfc;
+  background-color: #1b8ca0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer p a {
+  font-size: 0.1;
+  color: blue;
+  cursor: pointer;
+}
+#footer ul {
+  list-style-type: none;
+}
+#footer ul li {
+  margin-top: 10px;
+  cursor: pointer;
+}
+#footer ul p {
+  font-size: 1.2rem;
+}
+
 #header {
   color: #f4fbfc;
   background-color: #1b8ca0;
@@ -186,7 +210,7 @@ section {
 
 .btn-topo svg {
   background-color: white;
-  border: 3px solid rgba(0, 0, 0, 0.904);
+  border: 2px solid rgba(0, 0, 0, 0.904);
   border-radius: 50%;
   cursor: pointer;
   width: 40px;
