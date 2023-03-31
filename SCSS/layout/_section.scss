@@ -4,8 +4,8 @@ section{
     margin-top: 60px;
 }
 .functions-section h1{
-    color: rgb(245, 242, 236);
-    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
     width: fit-content;
     padding: 5px;
     margin-left: 5px;
@@ -13,13 +13,15 @@ section{
     background-color: variables.$primary-color;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
 }
-.functions-section p{
+.functions-section p{   
     padding: 26px;
+    font-size: 1.3rem;
+    font-family: variables.$font-secondary;
 }
 .depoiments-section{
     background-color:  variables.$secondary-color;
-    color: rgb(245, 242, 236);
-    padding: 20px 0px 5px 0px;
+    color: rgb(245, 242, 236);  
+    padding: 20px -5px 5px 0px;
     p{
         font-size: 1.4rem;
         text-align: center;
@@ -43,6 +45,8 @@ section{
         p{
             background-color: variables.$primary-color;
             padding: 10px;
+            font-family: variables.$font-secondary;
+            font-size: 1rem;
         }
     }
 }
@@ -53,8 +57,7 @@ section{
         color: rgb(245, 242, 236);
         font-size: 1.5rem;
         width: fit-content;
-        padding: 13px;
-        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
+        padding: 13px;      
     }
     div{
         svg{

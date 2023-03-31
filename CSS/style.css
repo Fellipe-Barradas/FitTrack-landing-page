@@ -39,11 +39,12 @@ body {
   font-family: "Outfit", sans-serif;
   width: 90%;
   margin-left: 15px;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .subtitle {
   padding: 10px;
+  font-size: 1.2rem;
 }
 
 header ul {
@@ -82,8 +83,8 @@ section {
 }
 
 .functions-section h1 {
-  color: rgb(245, 242, 236);
-  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 2.2rem;
   width: fit-content;
   padding: 5px;
   margin-left: 5px;
@@ -94,12 +95,14 @@ section {
 
 .functions-section p {
   padding: 26px;
+  font-size: 1.3rem;
+  font-family: "Noto Sans Display", sans-serif;
 }
 
 .depoiments-section {
   background-color: #1b8ca0;
   color: rgb(245, 242, 236);
-  padding: 20px 0px 5px 0px;
+  padding: 20px -5px 5px 0px;
 }
 .depoiments-section p {
   font-size: 1.4rem;
@@ -122,6 +125,8 @@ section {
 .depoiments-section .depoiment-card p {
   background-color: #17bedb;
   padding: 10px;
+  font-family: "Noto Sans Display", sans-serif;
+  font-size: 1rem;
 }
 
 .download-section {
@@ -133,7 +138,6 @@ section {
   font-size: 1.5rem;
   width: fit-content;
   padding: 13px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
 }
 .download-section div svg {
   margin-left: 10px;
@@ -195,7 +199,8 @@ section {
 }
 
 .progress-circle p {
-  padding: 5px;
+  padding: 0px;
+  font-size: 1.2rem;
 }
 
 .btn-topo {
@@ -210,12 +215,11 @@ section {
 
 .btn-topo svg {
   background-color: white;
-  border: 2px solid rgba(0, 0, 0, 0.904);
   border-radius: 50%;
   cursor: pointer;
   width: 40px;
   height: 40px;
-  color: blue;
+  color: #17bedb;
 }
 
 @keyframes flutuar {
