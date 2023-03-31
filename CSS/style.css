@@ -16,6 +16,7 @@ body {
   font-size: 0.1;
   color: blue;
   cursor: pointer;
+  text-decoration: none;
 }
 #footer ul {
   list-style-type: none;
