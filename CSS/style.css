@@ -4,6 +4,30 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+#footer {
+  margin-top: 100px;
+  color: #f4fbfc;
+  background-color: #1b8ca0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer p a {
+  font-size: 0.1;
+  color: blue;
+  cursor: pointer;
+}
+#footer ul {
+  list-style-type: none;
+}
+#footer ul li {
+  margin-top: 10px;
+  cursor: pointer;
+}
+#footer ul p {
+  font-size: 1.2rem;
+}
+
 #header {
   color: #f4fbfc;
   background-color: #1b8ca0;
@@ -13,7 +37,7 @@ body {
 
 #header .title {
   font-family: "Outfit", sans-serif;
-  width: 100%;
+  width: 90%;
   margin-left: 15px;
   font-size: 2.5rem;
 }
@@ -23,12 +47,21 @@ body {
 }
 
 header ul {
+  padding: 10px;
+  width: 50%;
+  justify-self: center;
+  align-self: center;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
   padding: 10px;
   justify-content: space-between;
+}
+@media only screen and (max-width: 770px) {
+  header ul {
+    width: 90%;
+  }
 }
 
 header ul li {
@@ -42,6 +75,159 @@ header ul li {
 }
 header ul li:hover {
   background-color: #42c7df;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.functions-section h1 {
+  color: rgb(245, 242, 236);
+  font-size: 2rem;
+  width: fit-content;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+  background-color: #17bedb;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
+}
+
+.functions-section p {
+  padding: 26px;
+}
+
+.depoiments-section {
+  background-color: #1b8ca0;
+  color: rgb(245, 242, 236);
+  padding: 20px 0px 5px 0px;
+}
+.depoiments-section p {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 10px;
+}
+.depoiments-section .depoiment-card h2 {
+  padding: 10px;
+  text-align: center;
+  background-color: #17bedb;
+  margin: auto;
+  width: fit-content;
+  border-radius: 10px;
+}
+.depoiments-section .depoiment-card h2 svg {
+  color: rgb(252, 252, 35);
+  width: 40px;
+  height: 40px;
+}
+.depoiments-section .depoiment-card p {
+  background-color: #17bedb;
+  padding: 10px;
+}
+
+.download-section {
+  background-color: #17bedb;
+  padding-bottom: 10px;
+}
+.download-section h1 {
+  color: rgb(245, 242, 236);
+  font-size: 1.5rem;
+  width: fit-content;
+  padding: 13px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
+}
+.download-section div svg {
+  margin-left: 10px;
+  color: white;
+}
+.download-section .download-button-app {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgba(128, 128, 128, 0.521);
+  width: fit-content;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.download-section .download-button-app:hover {
+  background-color: #990000;
+  border: 2px solid rgb(128, 128, 128);
+}
+.download-section .download-button-play {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgba(128, 128, 128, 0.521);
+  width: fit-content;
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.download-section .download-button-play:hover {
+  background-color: #000099;
+  border: 2px solid rgb(128, 128, 128);
+}
+
+.progress-circle {
+  background-color: #17bedb;
+  color: white;
+  margin: auto;
+  margin-top: 10px;
+  width: 160px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.progress-circle h2 {
+  font-size: 2.6rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.11);
+  width: fit-content;
+  margin: auto;
+}
+
+.progress-circle p {
+  padding: 5px;
+}
+
+.btn-topo {
+  width: fit-content;
+  display: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  right: 20px;
+  position: fixed;
+  animation: flutuar 1000ms infinite linear;
+}
+
+.btn-topo svg {
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.904);
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  color: blue;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 6px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+@use '../variables';
+#footer{
+    margin-top: 100px;
+    color: variables.$text-color;
+    background-color: variables.$secondary-color;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    p a{
+        font-size: 0.1;
+        color: blue;
+        cursor: pointer;
+    }
+    ul{
+        list-style-type: none;
+        li{
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+}
