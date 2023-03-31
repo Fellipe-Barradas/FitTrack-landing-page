@@ -13,7 +13,7 @@ body {
 
 #header .title {
   font-family: "Outfit", sans-serif;
-  width: 100%;
+  width: 90%;
   margin-left: 15px;
   font-size: 2.5rem;
 }
@@ -78,22 +78,26 @@ section {
   padding: 20px 0px 5px 0px;
 }
 .depoiments-section p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  text-align: center;
   padding: 10px;
 }
 .depoiments-section .depoiment-card h2 {
-  color: rgb(245, 242, 236);
   padding: 10px;
-  font-size: 2.5rem;
   text-align: center;
-  margin: auto;
-  border-radius: 15px;
   background-color: #17bedb;
+  margin: auto;
+  width: fit-content;
+  border-radius: 10px;
+}
+.depoiments-section .depoiment-card h2 svg {
+  color: rgb(252, 252, 35);
+  width: 40px;
+  height: 40px;
 }
 .depoiments-section .depoiment-card p {
   background-color: #17bedb;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .download-section {
@@ -168,6 +172,38 @@ section {
 
 .progress-circle p {
   padding: 5px;
+}
+
+.btn-topo {
+  width: fit-content;
+  display: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  right: 20px;
+  position: fixed;
+  animation: flutuar 1000ms infinite linear;
+}
+
+.btn-topo svg {
+  background-color: white;
+  border: 3px solid rgba(0, 0, 0, 0.904);
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  color: blue;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 6px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

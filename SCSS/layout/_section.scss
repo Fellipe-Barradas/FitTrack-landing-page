@@ -21,24 +21,28 @@ section{
     color: rgb(245, 242, 236);
     padding: 20px 0px 5px 0px;
     p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        text-align: center;
         padding: 10px;
         
     }
     .depoiment-card{
         h2{
-            color: rgb(245, 242, 236);
             padding: 10px;
-            font-size: 2.5rem;
             text-align: center;
-            margin: auto;
-            border-radius: 15px;
             background-color: variables.$primary-color;
+            margin: auto;
+            width: fit-content;
+            border-radius: 10px;
+            svg{
+                color: rgb(252, 252, 35);
+                width: 40px;
+                height: 40px;
+            }
         }
         p{
             background-color: variables.$primary-color;
             padding: 10px;
-            border-radius: 10px;
         }
     }
 }
